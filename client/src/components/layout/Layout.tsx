@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { useLocation } from 'wouter';
 import { Navigation } from './Navigation';
 import { Footer } from './Footer';
@@ -9,9 +9,13 @@ interface LayoutProps {
 
 export function Layout({ children }: LayoutProps) {
   const [location] = useLocation();
+  const prevLocation = useRef(location);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'instant' });
+    if (prevLocation.current !== location && !location.includes('#')) {
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    }
+    prevLocation.current = location;
   }, [location]);
 
   return (

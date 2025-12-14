@@ -15,7 +15,7 @@ export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
-  const [location] = useLocation();
+  const [location, setLocation] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,12 +40,37 @@ export function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [location]);
 
-  const handleNavClick = (href: string, section: string) => {
+  useEffect(() => {
+    if (location === '/' && window.location.hash) {
+      const sectionId = window.location.hash.slice(1);
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, [location]);
+
+  const handleNavClick = (e: React.MouseEvent, href: string, section: string) => {
     setMobileMenuOpen(false);
+    
     if (href.startsWith('/#')) {
-      const element = document.getElementById(section);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+      e.preventDefault();
+      
+      if (location === '/') {
+        const element = document.getElementById(section);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      } else {
+        setLocation('/');
+        setTimeout(() => {
+          const element = document.getElementById(section);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 100);
       }
     }
   };
@@ -81,9 +106,9 @@ export function Navigation() {
 
           <div className="hidden md:flex items-center gap-1">
             {navItems.map((item) => (
-              <Link key={item.label} href={item.href}>
+              <Link key={item.label} href={item.href.startsWith('/#') ? '/' : item.href}>
                 <span
-                  onClick={() => handleNavClick(item.href, item.section)}
+                  onClick={(e) => handleNavClick(e, item.href, item.section)}
                   className={`px-4 py-2 text-sm font-medium rounded-md transition-colors cursor-pointer ${
                     isActive(item)
                       ? 'text-foreground bg-muted'
@@ -120,9 +145,9 @@ export function Navigation() {
           <div className="md:hidden py-4 border-t border-border bg-background/95 backdrop-blur-md">
             <div className="flex flex-col gap-1">
               {navItems.map((item) => (
-                <Link key={item.label} href={item.href}>
+                <Link key={item.label} href={item.href.startsWith('/#') ? '/' : item.href}>
                   <span
-                    onClick={() => handleNavClick(item.href, item.section)}
+                    onClick={(e) => handleNavClick(e, item.href, item.section)}
                     className={`block px-4 py-3 text-sm font-medium rounded-md transition-colors cursor-pointer ${
                       isActive(item)
                         ? 'text-foreground bg-muted'
