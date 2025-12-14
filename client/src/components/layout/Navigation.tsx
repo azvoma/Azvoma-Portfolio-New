@@ -55,6 +55,21 @@ export function Navigation() {
   const handleNavClick = (e: React.MouseEvent, href: string, section: string) => {
     setMobileMenuOpen(false);
     
+    // Home button - scroll to very top
+    if (href === '/') {
+      e.preventDefault();
+      if (location === '/') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        setLocation('/');
+        setTimeout(() => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 100);
+      }
+      return;
+    }
+    
+    // Section links on home page
     if (href.startsWith('/#')) {
       e.preventDefault();
       
