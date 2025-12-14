@@ -1,11 +1,10 @@
-import { useEffect, useRef, useState } from 'react';
-import { useLocation } from 'wouter';
+import { useEffect, useState } from 'react';
 import { Navigation } from './Navigation';
 import { Footer } from './Footer';
 import { Button } from '@/components/ui/button';
 import { ArrowUp } from 'lucide-react';
 
-function ScrollToTop() {
+function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -39,16 +38,6 @@ interface LayoutProps {
 }
 
 export function Layout({ children }: LayoutProps) {
-  const [location] = useLocation();
-  const prevLocation = useRef(location);
-
-  useEffect(() => {
-    if (prevLocation.current !== location && !location.includes('#')) {
-      window.scrollTo({ top: 0, behavior: 'auto' });
-    }
-    prevLocation.current = location;
-  }, [location]);
-
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -56,7 +45,7 @@ export function Layout({ children }: LayoutProps) {
         {children}
       </main>
       <Footer />
-      <ScrollToTop />
+      <ScrollToTopButton />
     </div>
   );
 }
