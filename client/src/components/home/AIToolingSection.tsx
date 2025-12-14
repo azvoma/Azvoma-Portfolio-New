@@ -1,14 +1,13 @@
-import { Section, SectionHeader } from '@/components/ui/section';
+import { Section } from '@/components/ui/section';
 import { FadeIn } from '@/components/ui/fade-in';
-import { Sparkles } from 'lucide-react';
-import { SiFigma, SiMiro, SiNotion, SiZeplin, SiSupabase } from 'react-icons/si';
-import { Zap, Heart } from 'lucide-react';
+import { Sparkles, Zap, Heart, Layers } from 'lucide-react';
+import { SiFigma, SiMiro, SiNotion, SiSupabase } from 'react-icons/si';
 
 const toolsWithIcons = [
   { name: 'Figma', icon: SiFigma },
   { name: 'Miro', icon: SiMiro },
   { name: 'Notion', icon: SiNotion },
-  { name: 'Zeplin', icon: SiZeplin },
+  { name: 'Zeplin', icon: Layers },
   { name: 'Lovable', icon: Heart },
   { name: 'Bolt', icon: Zap },
   { name: 'Supabase', icon: SiSupabase },
