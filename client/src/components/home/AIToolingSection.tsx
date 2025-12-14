@@ -1,8 +1,18 @@
 import { Section, SectionHeader } from '@/components/ui/section';
 import { FadeIn } from '@/components/ui/fade-in';
-import { Badge } from '@/components/ui/badge';
-import { tools } from '@/lib/caseStudies';
 import { Sparkles } from 'lucide-react';
+import { SiFigma, SiMiro, SiNotion, SiZeplin, SiSupabase } from 'react-icons/si';
+import { Zap, Heart } from 'lucide-react';
+
+const toolsWithIcons = [
+  { name: 'Figma', icon: SiFigma },
+  { name: 'Miro', icon: SiMiro },
+  { name: 'Notion', icon: SiNotion },
+  { name: 'Zeplin', icon: SiZeplin },
+  { name: 'Lovable', icon: Heart },
+  { name: 'Bolt', icon: Zap },
+  { name: 'Supabase', icon: SiSupabase },
+];
 
 export function AIToolingSection() {
   return (
@@ -30,16 +40,21 @@ export function AIToolingSection() {
             <h3 className="text-sm font-semibold uppercase tracking-widest text-muted-foreground mb-6">
               Tools & Technologies
             </h3>
-            <div className="flex flex-wrap gap-3">
-              {tools.map((tool) => (
-                <Badge
-                  key={tool}
-                  variant="outline"
-                  className="px-4 py-2 text-sm font-medium"
-                >
-                  {tool}
-                </Badge>
-              ))}
+            <div className="flex flex-wrap gap-4">
+              {toolsWithIcons.map((tool) => {
+                const IconComponent = tool.icon;
+                return (
+                  <div
+                    key={tool.name}
+                    className="flex flex-col items-center gap-2 p-3 rounded-lg hover:bg-muted/50 transition-colors"
+                  >
+                    <IconComponent className="w-8 h-8 text-muted-foreground" />
+                    <span className="text-xs font-medium text-muted-foreground">
+                      {tool.name}
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </FadeIn>
