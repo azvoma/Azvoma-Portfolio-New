@@ -15,7 +15,7 @@ export default function CaseStudyPage() {
   if (!caseStudy) {
     return (
       <Layout>
-        <Section className="pt-32 min-h-screen flex items-center justify-center">
+        <Section className="pt-24 min-h-screen flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-2xl font-semibold mb-4">Case study not found</h1>
             <Link href="/case-studies">
@@ -35,7 +35,7 @@ export default function CaseStudyPage() {
   return (
     <Layout>
       <article>
-        <Section className="pt-32 md:pt-40 pb-12">
+        <Section className="pt-24 md:pt-28 pb-12">
           <FadeIn>
             <Link href="/case-studies">
               <Button variant="ghost" size="sm" className="mb-8" data-testid="button-back-case-studies">

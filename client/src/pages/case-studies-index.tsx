@@ -14,7 +14,7 @@ export default function CaseStudiesIndex() {
 
   return (
     <Layout>
-      <Section className="pt-32 md:pt-40">
+      <Section className="pt-24 md:pt-28">
         <FadeIn>
           <SectionHeader
             title="Case Studies"
