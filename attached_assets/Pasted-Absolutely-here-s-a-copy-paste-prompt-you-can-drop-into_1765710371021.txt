@@ -1,0 +1,373 @@
+Absolutely — here’s a copy-paste prompt you can drop into Replit AI (or use as your own build brief) to generate the full portfolio site.
+
+
+---
+
+Replit Prompt (Copy + Paste)
+
+Build a modern, 2026-ready portfolio website for a UX/UI & Product Designer (5 years experience). The site should be fast, responsive, accessible, and feel premium/minimal (white space, strong typography, subtle animations). Use a one-page landing approach, but include separate pages for each case study.
+
+Tech Requirements
+
+Use React + Vite (preferred) OR Next.js if easier.
+
+Use TypeScript if possible.
+
+Styling: TailwindCSS (preferred) OR clean CSS modules.
+
+Must be mobile-first, WCAG-friendly (good contrast, focus states).
+
+Add smooth scrolling for internal sections.
+
+Add a sticky top navigation that highlights the active section.
+
+Add a simple footer.
+
+Include a reusable layout component and consistent spacing/typography tokens.
+
+
+Routes / Pages
+
+Create these pages:
+
+1. / = One-page Home (landing page with sections)
+
+
+2. /case-studies = Case Studies index grid
+
+
+3. /case-studies/fluxboard = SaaS case study page
+
+
+4. /case-studies/pulsepay = Google Design Sprint case study page
+
+
+5. /case-studies/mindnest = App design case study page
+
+
+6. /case-studies/greengrid = Website design case study page
+
+
+
+Global Layout
+
+Sticky nav with: Home, Case Studies, Process, About, Contact
+
+Primary CTA button in nav: “Email Me”
+
+Footer with email + quick links
+
+
+Brand / Identity (Keep simple + premium)
+
+Typography: modern sans (system font is fine)
+
+Colors: neutral base, one accent color for links/buttons
+
+Components: Cards, Buttons, Badges, Section headings, Callout blocks
+
+Micro-interactions: hover states, subtle fade-in on scroll
+
+
+
+---
+
+Home Page ( / ) Structure & Content
+
+Section 1 — Hero (Above the fold)
+
+H1: “Product Designer (UX/UI) with 5+ years experience designing scalable digital products”
+
+Subtext: “I design end-to-end experiences across SaaS, apps, and websites — combining UX strategy, UI craft, and product thinking to drive measurable outcomes.”
+
+3 value bullets:
+
+“End-to-end UX/UI & Product Design (Discovery → Delivery)”
+
+“SaaS, Apps, Websites & Google Design Sprints”
+
+“Data-informed, AI-assisted, human-centred design”
+
+
+CTA buttons:
+
+Primary: “View Case Studies” (scroll to featured)
+
+Secondary: “Contact Me” (scroll to contact)
+
+
+
+Section 2 — Credibility Strip
+
+Show quick stats in cards:
+
+“5+ Years Experience”
+
+“SaaS • Mobile • Web”
+
+“Agile + Design Sprints”
+
+“Accessibility & Design Systems”
+
+
+Section 3 — Featured Case Studies (4 cards)
+
+Cards should link to each case study page:
+
+1. FluxBoard (SaaS)
+
+
+2. PulsePay (Google Sprint)
+
+
+3. MindNest (App)
+
+
+4. GreenGrid (Website)
+
+
+
+Each card includes:
+
+Type badge (SaaS / Sprint / App / Website)
+
+Role: Product Designer
+
+Outcome line (short)
+
+“Read Case Study →”
+
+
+Use these outcomes (fictional but realistic):
+
+FluxBoard: “Improved onboarding completion by 28%”
+
+PulsePay: “Validated a new checkout flow in 5 days”
+
+MindNest: “Reduced drop-off in week one with clearer flows”
+
+GreenGrid: “Increased lead conversion with clearer value proposition”
+
+
+Section 4 — How I Work (Process snapshot)
+
+Show a clean 5-step process:
+
+1. Understand the problem
+
+
+2. Explore & validate
+
+
+3. Design & prototype
+
+
+4. Test & iterate
+
+
+5. Deliver & measure
+
+
+
+Section 5 — AI & Tooling (Modern for 2026)
+
+Add a professional AI positioning section (not gimmicky): Headline: “AI-assisted, human-led design” Body: “I use AI as a design accelerator — not a replacement for critical thinking. From synthesising research and speeding up documentation to generating UI variations and improving UX writing, AI helps me spend more time on strategy, users, and outcomes.” Add a tool list as tags: Figma, Figma AI, ChatGPT, Notion, Jira, Miro
+
+Section 6 — About
+
+Short and skimmable: “I’m a UX/UI & Product Designer with 5 years’ experience designing digital products across SaaS, apps, and websites. I enjoy turning ambiguity into clear, usable experiences and collaborating with PMs and engineers to deliver measurable outcomes.”
+
+Section 7 — Contact
+
+Make contact obvious and conversion-friendly:
+
+Headline: “Let’s build something great.”
+
+Email: azvoma@gmail.com
+
+Buttons:
+
+“Email Me” (mailto link)
+
+“View Case Studies” Optional fields: location + availability (leave generic)
+
+
+
+
+---
+
+Case Studies Index Page ( /case-studies )
+
+Title: “Case Studies”
+
+Intro line: “A selection of product work across SaaS, sprint delivery, mobile, and web.”
+
+Grid of 4 cards with the same case study previews.
+
+Add a filter UI (All / SaaS / Sprint / App / Website) — can be client-side.
+
+
+
+---
+
+Case Study Page Template (All case studies)
+
+Each case study should follow this professional structure, with strong typography and sections:
+
+1. Header
+
+
+
+Project name
+
+Type badge
+
+Role: Product Designer
+
+Duration
+
+Team (PM, Engineers, Stakeholders)
+
+Short summary + outcome highlight
+
+
+2. The Problem
+
+
+
+Business problem
+
+User problem
+
+Constraints
+
+
+3. My Role
+
+
+
+Responsibilities bullets
+
+
+4. Discovery & Insights Include 2 deliverables:
+
+
+
+Research plan / interview notes
+
+Journey map or problem statements
+
+
+5. Ideation & Exploration Include 2 deliverables:
+
+
+
+Crazy 8s sketches / wireframes
+
+IA or user flows
+
+
+6. Design & Prototype Include 2 deliverables:
+
+
+
+Mid/high-fidelity screens
+
+Component/design system notes
+
+
+7. Testing & Iteration Include 2 deliverables:
+
+
+
+Usability test plan
+
+Iteration changelog
+
+
+8. Outcome & Impact Metrics + qualitative outcomes
+
+
+9. Reflection What I’d improve + learnings
+
+
+
+Also:
+
+Include placeholder image blocks for: “Final UI”, “Flow diagram”, “Before/After”
+
+Add a “Next case study →” link at the end.
+
+
+
+---
+
+Case Study Content (Fictional Projects)
+
+1) FluxBoard — B2B Analytics SaaS
+
+Problem: onboarding confusion, poor activation
+
+Users: Ops managers / analysts
+
+Goal: improve activation and clarity
+
+Outcome: onboarding completion +28%, support tickets reduced
+
+
+2) PulsePay — Google Design Sprint (5 days)
+
+Problem: checkout drop-offs and trust concerns
+
+Sprint structure: Map, Sketch, Decide, Prototype, Test
+
+Outcome: validated redesigned checkout + improved trust signals
+
+
+3) MindNest — Wellness Mobile App
+
+Problem: week-one drop off, unclear habit loop
+
+Outcome: clearer onboarding + reduced early churn
+
+
+4) GreenGrid — Sustainable Energy Website
+
+Problem: unclear proposition, low lead conversion
+
+Outcome: improved messaging hierarchy + higher lead conversion
+
+
+
+---
+
+Extra Requirements
+
+Add SEO basics: page titles, meta descriptions, OpenGraph placeholders
+
+Add scroll-to-top on route change
+
+Add 404 page
+
+Make all buttons/links keyboard accessible
+
+Use clean, readable components and avoid clutter
+
+Use placeholder images (or simple gradients) with labels so I can swap later
+
+Ensure the code is organized and easy to edit
+
+
+Return the full project with:
+
+folder structure
+
+key components
+
+clean data model for case studies (so I can edit content easily)
+
+
+
+---
+
+If you want, I can also paste a second prompt that asks Replit to generate it as Next.js + MDX so you can write case studies like blog posts (super clean for scaling).
