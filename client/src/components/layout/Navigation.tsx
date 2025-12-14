@@ -97,10 +97,11 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/">
             <span 
-              className="text-lg font-semibold tracking-tight cursor-pointer"
+              className="text-xl font-bold tracking-tight cursor-pointer flex items-center"
               data-testid="link-home-logo"
             >
-              Portfolio
+              <span className="text-primary">A</span>
+              <span className="text-foreground">Z</span>
             </span>
           </Link>
 

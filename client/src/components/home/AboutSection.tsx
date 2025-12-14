@@ -8,7 +8,7 @@ export function AboutSection() {
         <FadeIn>
           <SectionHeader
             eyebrow="About Me"
-            title="A bit about who I am"
+            title="Hi, I'm Andrew Zvoma"
             centered
           />
         </FadeIn>

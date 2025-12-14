@@ -10,8 +10,6 @@ const quickLinks = [
 ];
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
-
   const scrollToSection = (href: string) => {
     if (href.startsWith('/#')) {
       const sectionId = href.replace('/#', '');
@@ -71,14 +69,9 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-muted-foreground">
-              {currentYear} Portfolio. Designed with intention.
-            </p>
-            <p className="text-sm text-muted-foreground">
-              Built with React + Tailwind
-            </p>
-          </div>
+          <p className="text-sm text-muted-foreground text-center">
+            © 2025 Andrew Zvoma. All rights reserved. Designed and built by me.
+          </p>
         </div>
       </div>
     </footer>
