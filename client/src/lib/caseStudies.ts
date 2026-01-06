@@ -567,8 +567,167 @@ export const caseStudies: CaseStudy[] = [
         'Visual hierarchy guides users to action'
       ]
     },
-    nextCaseStudy: 'fluxboard',
+    nextCaseStudy: 'surgeryprep',
     gradientColors: 'from-amber-500/20 to-orange-500/20'
+  },
+  {
+    id: '5',
+    slug: 'surgeryprep',
+    title: 'SurgeryPrep',
+    type: 'App',
+    role: 'UI/UX Designer',
+    duration: '3 months',
+    team: 'Solo Designer',
+    summary: 'Designed a personalised mobile companion that delivers the right information at the right time to surgery patients, reducing anxiety and empowering them throughout their surgical journey.',
+    outcome: 'Validated solution addressing patient pain points',
+    outcomeMetric: '100% task completion',
+    problem: {
+      business: 'Healthcare staff spent hours answering repetitive questions, with patients forgetting 40-80% of medical information immediately after consultations.',
+      user: 'Patients undergoing surgery faced anxiety, confusion, and information overload. Traditional communication methods—verbal instructions and printed leaflets—often failed to provide the right information at the right time.',
+      constraints: [
+        'Must maintain medical credibility and accuracy',
+        'Solution needs to work for diverse surgery types',
+        'Must reduce communication burden on healthcare staff'
+      ]
+    },
+    responsibilities: [
+      'Conducted primary research with patients and healthcare providers',
+      'Led end-to-end UX research and design process',
+      'Created user personas and journey maps',
+      'Designed information architecture and core features',
+      'Developed comprehensive design system',
+      'Conducted usability testing and iterations'
+    ],
+    discovery: {
+      title: 'Research: Understanding the Human Experience',
+      content: [
+        'Conducted patient interviews with 8 participants across various surgery types to understand diverse experiences and needs',
+        'Interviewed 5 healthcare professionals (3 surgeons, 2 nurses) to reveal their communication challenges',
+        'Created journey mapping documenting emotional highs and lows throughout the surgical process',
+        'Identified critical finding: Patients experience peak anxiety 24-48 hours before surgery due to uncertainty about preparation steps'
+      ],
+      deliverables: [
+        {
+          title: 'Patient Interview Report',
+          description: 'Insights from 8 patients revealing anxiety patterns and information needs',
+          imagePlaceholder: 'Sticky notes showing patient feedback themes'
+        },
+        {
+          title: 'Healthcare Provider Report',
+          description: 'Professional perspectives on communication gaps and support challenges',
+          imagePlaceholder: 'Interview synthesis showing provider pain points'
+        }
+      ]
+    },
+    ideation: {
+      title: 'Insights: Defining the Design Challenge',
+      content: [
+        'Synthesised research findings to identify core user needs: How might we help patients feel confident and prepared throughout their surgical journey?',
+        'Created detailed personas capturing emotional states, motivations, and specific pain points from research',
+        'Used structured ideation techniques (Crazy 8s) to generate over 20 diverse concepts',
+        'Prioritised solutions based on user impact and technical feasibility'
+      ],
+      deliverables: [
+        {
+          title: 'User Personas',
+          description: 'Primary patient and healthcare provider personas with comprehensive profiles',
+          imagePlaceholder: 'Detailed persona cards with photos and attributes'
+        },
+        {
+          title: 'Concept Sketches',
+          description: 'Ideation process documented showing concept evolution',
+          imagePlaceholder: 'Hand-drawn sketches of mobile app concepts'
+        },
+        {
+          title: 'User Journey Map',
+          description: 'Comprehensive flow showing patient navigation from diagnosis through recovery',
+          imagePlaceholder: 'Journey map with touchpoints and emotional states'
+        }
+      ]
+    },
+    design: {
+      title: 'Solution: Design & Validation',
+      content: [
+        'Created low-fidelity wireframes to test core concepts and user flows before high-fidelity design work',
+        'Developed comprehensive design system prioritising calm, reassuring aesthetic to reduce anxiety and build confidence',
+        'Designed six essential features: Personalised Surgery Timeline, Interactive Checklists, Smart FAQ System, Recovery Tracking, Gentle Reminders, and Educational Content',
+        'Built information architecture ensuring intuitive navigation throughout the patient journey'
+      ],
+      deliverables: [
+        {
+          title: 'Wireframes',
+          description: 'Low-fidelity explorations testing core concepts',
+          imagePlaceholder: 'Wireframe screens showing app structure'
+        },
+        {
+          title: 'Design System',
+          description: 'Complete colour palette, typography, and component library',
+          imagePlaceholder: 'Design system documentation with colors and components'
+        },
+        {
+          title: 'Information Architecture',
+          description: 'Site map organizing features and navigation patterns',
+          imagePlaceholder: 'Hierarchical diagram of app structure'
+        },
+        {
+          title: 'High-Fidelity Prototype',
+          description: 'Interactive prototype with all key features and user flows',
+          imagePlaceholder: 'Polished mobile screens showing complete experience'
+        }
+      ]
+    },
+    testing: {
+      title: 'Final Design & User Validation',
+      content: [
+        'Conducted usability testing with 5 users (3 patients, 2 clinicians) through task-based scenarios',
+        'Achieved 100% task completion rate across all core user flows',
+        'Received feedback: "Reassuring" and "much clearer than leaflets"',
+        'Made improvements: Simplified medical terminology, added voice-over capability for accessibility, enhanced visual hierarchy for key information, refined notification timing'
+      ],
+      deliverables: [
+        {
+          title: 'Usability Test Plan',
+          description: 'Task scenarios and success metrics for validation',
+          imagePlaceholder: 'Test script with scenarios and questions'
+        },
+        {
+          title: 'Test Findings Report',
+          description: 'Synthesized user feedback and validation results',
+          imagePlaceholder: 'Report showing quotes and success metrics'
+        },
+        {
+          title: 'Iteration Documentation',
+          description: 'Changes made based on user feedback',
+          imagePlaceholder: 'Before/after comparisons with improvement notes'
+        }
+      ]
+    },
+    outcomes: {
+      metrics: [
+        '100% task completion rate across all users',
+        'Clinicians confirmed significant call reduction potential',
+        'Intuitive navigation requiring no explanation'
+      ],
+      qualitative: [
+        'Users reported feeling "reassuring" and found it "much clearer than leaflets"',
+        'Patient testimonial: "For the first time, I felt like I knew what was happening to my body"',
+        'Healthcare professionals noted reduced repetitive communication burden'
+      ]
+    },
+    reflection: {
+      improvements: [
+        'Would conduct pilot program with local hospital for 3-month real-world study',
+        'Could explore integration with existing hospital record systems (EHR)',
+        'Would add multilingual capabilities and full voice support for broader accessibility'
+      ],
+      learnings: [
+        'Timing is everything: Right information at the wrong time creates more anxiety, not less',
+        'Language matters: Medical jargon creates barriers; simple, empathetic language builds trust and understanding',
+        'Personalisation scales: Surgery-specific content dramatically improves relevance without exponentially increasing complexity'
+      ]
+    },
+    nextCaseStudy: 'fluxboard',
+    gradientColors: 'from-teal-500/20 to-cyan-500/20'
   }
 ];
 
