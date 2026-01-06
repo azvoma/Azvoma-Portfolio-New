@@ -1046,8 +1046,172 @@ export const caseStudies: CaseStudy[] = [
         'Stakeholder Alignment Is Critical: Early and ongoing collaboration ensures design decisions support business objectives'
       ]
     },
-    nextCaseStudy: 'fluxboard',
+    nextCaseStudy: 'blu-vape',
     gradientColors: 'from-emerald-500/20 to-teal-500/20'
+  },
+  {
+    id: '8',
+    slug: 'blu-vape',
+    title: 'Blu Vape Brand Reimagination',
+    type: 'Sprint',
+    role: 'UI/UX Designer',
+    duration: '5 days',
+    team: 'Cross-functional Sprint Team',
+    summary: 'Led a Google Design Sprint to reimagine Blu Vape\'s brand experience, transforming it from product-focused to community-driven through an integrated loyalty ecosystem.',
+    outcome: '87% found loyalty programme appealing',
+    outcomeMetric: '100% starter kit comprehension',
+    problem: {
+      business: 'Blu Vape was experiencing declining market share driven by increased competition, shifting customer expectations, and weakening brand loyalty. Existing experiences focused heavily on products, with limited emotional connection or long-term engagement.',
+      user: 'Customers wanted to be part of a community and build relationships with the brand, not just purchase products. The fragmented customer experience across touchpoints failed to create meaningful connections or long-term loyalty.',
+      constraints: [
+        'Limited to 5-day Google Design Sprint timeframe',
+        'Must explore bold ideas while remaining feasible',
+        'Solution needs to differentiate through experience, not just products'
+      ]
+    },
+    responsibilities: [
+      'Facilitated lightning talks with key stakeholders to clarify business goals and sprint success criteria',
+      'Led customer journey mapping from awareness to loyalty',
+      'Conducted competitive analysis of loyalty programmes and trial mechanics',
+      'Facilitated Crazy 8s ideation session for wide-ranging solution exploration',
+      'Led concept evaluation using dot voting and value-effort-feasibility matrix',
+      'Designed mid-fidelity wireframes to validate information architecture and user flows',
+      'Created high-fidelity prototype reflecting refreshed brand direction',
+      'Conducted moderated usability testing with 8 participants across three user groups'
+    ],
+    discovery: {
+      title: 'Day 1: Understand – Mapping the Challenge',
+      content: [
+        'Worked closely with stakeholders to understand Blu Vape\'s vision, rebranding ambitions, and commercial challenges',
+        'Mapped the end-to-end customer journey from awareness to loyalty, identifying gaps, friction points, and emotional drop-offs',
+        'Reviewed competitor approaches to loyalty, trial, and retail engagement to identify opportunities for differentiation',
+        'Synthesised insights into clear problem statements and sprint objectives that guided decision-making throughout the week'
+      ],
+      deliverables: [
+        {
+          title: 'Stakeholder Insights',
+          description: 'Key findings from interviews clarifying business goals and brand direction',
+          imagePlaceholder: 'Stakeholder interview synthesis document'
+        },
+        {
+          title: 'Customer Journey Map',
+          description: 'End-to-end journey mapping identifying friction points and drop-offs',
+          imagePlaceholder: 'Customer journey visualization'
+        }
+      ]
+    },
+    ideation: {
+      title: 'Day 2-3: Diverge & Decide – From Ideas to Direction',
+      content: [
+        'Generated wide range of potential solutions through Crazy 8s session and collaborative ideation focused on loyalty, product trial, and tobacconist engagement',
+        'Ideas ranged from digital loyalty systems and community features to in-store trial experiences and retailer tools, emphasizing volume and variety over refinement',
+        'Grouped ideas into strategic themes: Brand Identity, Product Innovation, and Customer Experience',
+        'Evaluated concepts using dot voting and evaluation matrix considering user value, business impact, and feasibility',
+        'Selected winning concept: Integrated Loyalty Ecosystem connecting digital experiences with physical touchpoints, emphasizing community and personalization'
+      ],
+      deliverables: [
+        {
+          title: 'Crazy 8s Sketches',
+          description: 'Rapid ideation exploring loyalty, trial, and community concepts',
+          imagePlaceholder: 'Individual sketches from ideation session'
+        },
+        {
+          title: 'Thematic Clustering',
+          description: 'Ideas grouped into Brand Identity, Product Innovation, and Customer Experience',
+          imagePlaceholder: 'Concept clusters and themes'
+        },
+        {
+          title: 'Decision Matrix',
+          description: 'Evaluation framework showing concept selection rationale',
+          imagePlaceholder: 'Decision matrix with scoring'
+        }
+      ]
+    },
+    design: {
+      title: 'Day 4: Prototype – Building to Learn',
+      content: [
+        'Created realistic prototype to test core assumptions: product discovery, loyalty onboarding, and community engagement',
+        'Built just enough fidelity to test both usability and emotional response to the reimagined brand',
+        'Prioritized clarity, flow, and brand tone over exhaustive screen coverage',
+        'Focused on five key prototype areas: Trial onboarding, Goal selection, Registration, Special offers, Help & support',
+        'Developed prototype showcasing integrated loyalty ecosystem with tiered rewards, curated starter kits, community features, tobacconist portal, exclusive experiences, and integrated feedback loops'
+      ],
+      deliverables: [
+        {
+          title: 'Mid-Fidelity Wireframes',
+          description: 'Information architecture and flow validation before visual polish',
+          imagePlaceholder: 'Wireframe screens showing key flows'
+        },
+        {
+          title: 'High-Fidelity Prototype',
+          description: 'Polished prototype reflecting refreshed brand direction',
+          imagePlaceholder: 'Mobile screens showing onboarding, goals, registration, offers, and support'
+        },
+        {
+          title: 'Testing Scenarios',
+          description: 'Three core scenarios: new user onboarding, loyalty engagement, retail integration',
+          imagePlaceholder: 'Test plan document'
+        }
+      ]
+    },
+    testing: {
+      title: 'Day 5: Test – Validating with Real Users',
+      content: [
+        'Conducted moderated testing sessions with 8 participants across three groups: existing customers, potential new users, and tobacconist representatives',
+        'Each participant completed 45-minute session covering key flows, combining behavioral observation with qualitative feedback',
+        'Strong positive response: 87% found loyalty programme appealing, 100% of new users understood and valued starter kits, 75% expressed interest in community features',
+        'Identified areas for improvement: simplify reward redemption, clarify community guidelines, improve mobile flow performance, strengthen onboarding guidance'
+      ],
+      deliverables: [
+        {
+          title: 'Testing Protocol',
+          description: 'Structured scenarios and observation framework for three user groups',
+          imagePlaceholder: 'Testing script and observation guide'
+        },
+        {
+          title: 'User Insights Report',
+          description: 'Synthesis of behavioral observations and qualitative feedback',
+          imagePlaceholder: 'Report with user quotes and findings'
+        },
+        {
+          title: 'Validation Metrics',
+          description: 'Quantitative results showing strong positive response',
+          imagePlaceholder: 'Metrics dashboard with percentages'
+        }
+      ]
+    },
+    outcomes: {
+      metrics: [
+        '87% found the loyalty programme appealing',
+        '100% of new users understood and valued the starter kits',
+        '75% expressed interest in community features',
+        'All tobacconists valued the centralised resource hub'
+      ],
+      qualitative: [
+        'User feedback: "This finally feels like a brand that understands what I want, not just trying to sell me products"',
+        'User feedback: "The starter kit makes it easy to try without committing"',
+        'User feedback: "Having centralised resources makes me more confident in promoting the brand"',
+        'Stakeholder validation: "This sprint gave us the confidence and direction we needed to move forward with a complete brand transformation"',
+        'Demonstrated clear opportunity to differentiate through experience, loyalty, and community rather than product features alone'
+      ]
+    },
+    reflection: {
+      improvements: [
+        'Refine the prototype based on testing feedback',
+        'Define technical requirements for development',
+        'Plan a phased rollout of loyalty features',
+        'Launch a pilot with selected tobacconist partners',
+        'Establish success metrics and feedback loops',
+        'Run follow-up sprints for individual features'
+      ],
+      learnings: [
+        'Sprint Efficiency: Google Design Sprint compressed months of exploration into one focused week while delivering validated strategic direction',
+        'Experience Over Product: Focusing on customer experience rather than product differentiation alone uncovered clearer path for brand transformation',
+        'Stakeholder Alignment: Sprint format effectively aligned diverse stakeholders and accelerated decision-making through structured process'
+      ]
+    },
+    nextCaseStudy: 'fluxboard',
+    gradientColors: 'from-cyan-500/20 to-blue-500/20'
   }
 ];
 
