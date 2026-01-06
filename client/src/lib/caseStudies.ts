@@ -882,8 +882,172 @@ export const caseStudies: CaseStudy[] = [
         'Transparency Builds Trust: Clear expectations increase confidence and conversion'
       ]
     },
-    nextCaseStudy: 'fluxboard',
+    nextCaseStudy: 'samsung-b2b',
     gradientColors: 'from-rose-500/20 to-pink-500/20'
+  },
+  {
+    id: '7',
+    slug: 'samsung-b2b',
+    title: 'Samsung B2B Lead Generation',
+    type: 'Website',
+    role: 'UI/UX Designer',
+    duration: '3 months',
+    team: 'Solo Designer',
+    summary: 'Transformed Samsung\'s B2B digital presence from product showcase to partnership platform, creating a strategic lead generation page for Construction and PRS sectors.',
+    outcome: 'Strategic B2B partnership platform',
+    outcomeMetric: 'Strong stakeholder alignment',
+    problem: {
+      business: 'Samsung\'s B2B digital presence was underperforming in the Construction and Private Rental Sector (PRS) markets. Product-led messaging was failing to resonate with senior decision-makers seeking long-term strategic partners rather than transactional suppliers.',
+      user: 'Construction and PRS decision-makers needed partners who understood their long-term vision and industry challenges, not just vendors pushing individual products. Generic lead forms and vague messaging failed to capture high-intent B2B leads.',
+      constraints: [
+        'Must balance credibility, clarity, and conversion without feeling sales-driven',
+        'Solution needs to integrate seamlessly with Samsung\'s existing B2B site structure',
+        'Must position Samsung as strategic partner rather than product vendor'
+      ]
+    },
+    responsibilities: [
+      'Structured research to balance internal stakeholder insights with external market understanding',
+      'Conducted in-depth stakeholder interviews with Samsung\'s internal teams',
+      'Performed target audience analysis of construction and PRS decision-makers',
+      'Analysed competitor B2B pages to identify messaging gaps and opportunities',
+      'Reviewed existing Samsung content to identify areas lacking clarity',
+      'Created user persona for B2B decision-makers',
+      'Designed content strategy and narrative structure',
+      'Developed information architecture and page structure',
+      'Created wireframes and high-fidelity designs'
+    ],
+    discovery: {
+      title: 'Research: Understanding Business Alignment',
+      content: [
+        'Conducted in-depth interviews with Samsung\'s internal teams to understand business objectives, success metrics, and competitive positioning',
+        'Researched decision-makers within construction firms, developers, and architectural practices to understand partnership criteria and pain points',
+        'Analysed competitor B2B pages to identify common gaps, messaging weaknesses, and opportunities for differentiation',
+        'Reviewed existing Samsung content to identify areas where messaging lacked clarity, relevance, or industry focus'
+      ],
+      deliverables: [
+        {
+          title: 'Stakeholder Interview Insights',
+          description: 'Key findings from Samsung internal teams on business objectives and positioning',
+          imagePlaceholder: 'Stakeholder interview synthesis document'
+        },
+        {
+          title: 'Competitive Analysis',
+          description: 'Framework comparing B2B messaging approaches across technology vendors',
+          imagePlaceholder: 'Competitive analysis matrix'
+        }
+      ]
+    },
+    ideation: {
+      title: 'Insights: Defining the Strategic Challenge',
+      content: [
+        'Synthesised research insights to identify core challenge: repositioning Samsung\'s B2B presence to clearly communicate partnership value, industry understanding, and long-term collaboration',
+        'Created detailed B2B decision-maker persona representing mid-to-senior level professionals in construction and PRS organisations',
+        'Framed key design questions: How might we position Samsung as a strategic solutions partner? How might partnership value be communicated in a way that builds trust?',
+        'The design needed to balance credibility, clarity, and conversion without feeling sales-driven'
+      ],
+      deliverables: [
+        {
+          title: 'User Persona',
+          description: 'B2B decision-maker persona for construction and PRS organisations',
+          imagePlaceholder: 'Persona card with demographics and pain points'
+        },
+        {
+          title: 'Design Questions Framework',
+          description: 'Key questions guiding the strategic positioning and messaging approach',
+          imagePlaceholder: 'Framework document with design questions'
+        }
+      ]
+    },
+    design: {
+      title: 'Solution: Design & Validation',
+      content: [
+        'Explored multiple structural and messaging concepts using structured ideation techniques, prioritised based on business impact and alignment with user needs',
+        'Designed narrative structure guiding users from industry understanding to partnership credibility to engagement, focusing on real-world partnership stories and industry-specific challenges',
+        'Created six core features: Partnership Storytelling (real-world case studies), Solution Overviews (industry-specific value propositions), Trust Indicators (client testimonials and certifications), Strategic CTAs (consultation-focused calls-to-action), Educational Content (thought leadership and industry insights), Lead Qualification (smart forms segmenting prospects by project needs)',
+        'Designed clear information architecture that supported logical content flow and intuitive navigation'
+      ],
+      deliverables: [
+        {
+          title: 'Concept Sketches',
+          description: 'Multiple page structures and narratives with value vs. effort prioritisation',
+          imagePlaceholder: 'Sketches and ideation concepts'
+        },
+        {
+          title: 'Content Strategy & Flow',
+          description: 'Narrative structure guiding development priorities',
+          imagePlaceholder: 'Content flow diagram'
+        },
+        {
+          title: 'Wireframes',
+          description: 'Progressive wireframes testing content hierarchy and narrative flow',
+          imagePlaceholder: 'Low-fidelity wireframe screens'
+        },
+        {
+          title: 'High-Fidelity Design',
+          description: 'Final lead generation page optimised for clarity, trust, and engagement',
+          imagePlaceholder: 'Polished desktop design showing partnership focus'
+        },
+        {
+          title: 'Information Architecture',
+          description: 'Site structure integrating seamlessly with existing B2B platform',
+          imagePlaceholder: 'IA diagram showing feature integration'
+        }
+      ]
+    },
+    testing: {
+      title: 'Testing & Iteration',
+      content: [
+        'Iterated from low-fidelity wireframes to high-fidelity designs, validating decisions through stakeholder feedback and research insights',
+        'Early wireframes focused on content hierarchy and narrative clarity, refined through feedback sessions before moving into high-fidelity design',
+        'Final design balanced business credibility, partnership messaging, and conversion optimisation',
+        'Made improvements: Refined messaging based on stakeholder feedback, strengthened visual storytelling for partnership case studies, optimised form design for lead qualification, improved mobile responsiveness for field-based professionals'
+      ],
+      deliverables: [
+        {
+          title: 'Wireframe Testing',
+          description: 'Content hierarchy and narrative validation sessions',
+          imagePlaceholder: 'Wireframe feedback documentation'
+        },
+        {
+          title: 'Stakeholder Validation',
+          description: 'Alignment sessions confirming partnership-focused messaging',
+          imagePlaceholder: 'Validation report with stakeholder feedback'
+        },
+        {
+          title: 'Design Iterations',
+          description: 'Refinements based on feedback and research insights',
+          imagePlaceholder: 'Before/after comparisons showing improvements'
+        }
+      ]
+    },
+    outcomes: {
+      metrics: [
+        'Strong stakeholder alignment on partnership-focused messaging',
+        'Clear value proposition differentiation from competitors',
+        'Intuitive navigation requiring minimal explanation',
+        'Strong visual hierarchy guiding users toward key actions'
+      ],
+      qualitative: [
+        'Stakeholders validated the design as positioning Samsung as "the strategic partner we want to be, not just another vendor"',
+        'Demonstrated how UX design can transform business messaging from product-led to partnership-centred',
+        'Project showed the value of early stakeholder collaboration in supporting business objectives'
+      ]
+    },
+    reflection: {
+      improvements: [
+        'Would launch within Samsung\'s Business Industries section to validate with real users',
+        'Could track engagement metrics, form submissions, and lead quality',
+        'Would conduct A/B testing on messaging and layout variations',
+        'Could integrate with CRM for improved lead nurturing and tracking'
+      ],
+      learnings: [
+        'Partnership Over Product: B2B audiences respond more strongly to relationship-driven messaging than feature lists',
+        'Industry Specificity Matters: Tailored content significantly improves credibility and engagement',
+        'Stakeholder Alignment Is Critical: Early and ongoing collaboration ensures design decisions support business objectives'
+      ]
+    },
+    nextCaseStudy: 'fluxboard',
+    gradientColors: 'from-emerald-500/20 to-teal-500/20'
   }
 ];
 
