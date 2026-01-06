@@ -726,8 +726,164 @@ export const caseStudies: CaseStudy[] = [
         'Personalisation scales: Surgery-specific content dramatically improves relevance without exponentially increasing complexity'
       ]
     },
-    nextCaseStudy: 'fluxboard',
+    nextCaseStudy: 'harrods',
     gradientColors: 'from-teal-500/20 to-cyan-500/20'
+  },
+  {
+    id: '6',
+    slug: 'harrods',
+    title: 'Harrods Pre-order',
+    type: 'App',
+    role: 'UI/UX Designer',
+    duration: '8 weeks',
+    team: 'Solo Designer',
+    summary: 'Designed a luxury pre-order experience that allows customers to reserve high-demand products before launch, enhancing exclusivity while providing Harrods with demand forecasting capabilities.',
+    outcome: 'Validated luxury pre-order experience',
+    outcomeMetric: '100% task completion',
+    problem: {
+      business: 'Harrods did not offer a pre-order feature, causing customer frustration and lost revenue for high-demand and limited-edition products. Missed conversion opportunities reduced both revenue and customer satisfaction.',
+      user: 'Luxury shoppers missed out on limited-edition items they wanted because they didn\'t know when products would be available. Customers were forced to repeatedly check availability, creating frustration and uncertainty.',
+      constraints: [
+        'Must feel effortless, exclusive, and premium',
+        'Solution needs to integrate seamlessly into existing platform',
+        'Must maintain Harrods\' luxury brand positioning'
+      ]
+    },
+    responsibilities: [
+      'Structured research to balance customer expectations, competitive standards, and business goals',
+      'Conducted customer surveys and interviews with Harrods customers',
+      'Performed competitive analysis of luxury retailers',
+      'Created user personas and journey maps',
+      'Designed complete pre-order flow and information architecture',
+      'Developed wireframes and high-fidelity mobile experience',
+      'Conducted usability testing and iterations'
+    ],
+    discovery: {
+      title: 'Research: Understanding Luxury Shopping Behaviour',
+      content: [
+        'Gathered insights from Harrods customers across different segments to understand expectations around exclusivity and early access',
+        'Mapped journeys for limited-edition purchases to identify friction points and moments of frustration',
+        'Analysed how other luxury retailers approached pre-ordering to identify best practices and opportunities for differentiation',
+        'Evaluated how pre-ordering could support inventory planning, revenue forecasting, and customer loyalty'
+      ],
+      deliverables: [
+        {
+          title: 'Customer Interview Report',
+          description: 'Insights from Harrods customers revealing expectations and frustrations',
+          imagePlaceholder: 'Customer interview synthesis document'
+        },
+        {
+          title: 'Competitive Analysis',
+          description: 'Framework comparing pre-order approaches across luxury retailers',
+          imagePlaceholder: 'Competitive analysis matrix with findings'
+        }
+      ]
+    },
+    ideation: {
+      title: 'Insights: Defining the Luxury Experience Challenge',
+      content: [
+        'Synthesised research insights to define a design challenge centred on security, simplicity, and exclusivity',
+        'Created focused user persona "Sarah Martins" to anchor design decisions around high-value luxury shoppers',
+        'Framed key design questions: How might we help customers secure high-demand items while preserving the premium Harrods experience?',
+        'Defined problem statement: Lack of early access and transparency for high-intent customers, requiring a solution that feels like a service, not just a transactional feature'
+      ],
+      deliverables: [
+        {
+          title: 'User Persona',
+          description: 'Detailed persona for luxury shopper with demographics and pain points',
+          imagePlaceholder: 'Persona card for Sarah Martins'
+        },
+        {
+          title: 'Concept Sketches',
+          description: 'Multiple concepts evaluated using value vs. effort matrix',
+          imagePlaceholder: 'Hand-drawn sketches of reservation approaches'
+        },
+        {
+          title: 'User Flow Design',
+          description: 'Detailed flows ensuring pre-order journey feels familiar and frictionless',
+          imagePlaceholder: 'User flow diagram showing pre-order process'
+        }
+      ]
+    },
+    design: {
+      title: 'Solution: Design & Validation',
+      content: [
+        'Created progressive wireframes to test core concepts and user flows before investing in high-fidelity design work',
+        'Developed mobile-first experience that balanced luxury aesthetics with clarity and usability',
+        'Designed six core features: Exclusive Access Notifications, Seamless Reservation Process, Order Status Tracking, Flexible Payment Options, Wishlist Integration, and Concierge Support',
+        'Built information architecture to integrate pre-order feature seamlessly into Harrods\' existing platform'
+      ],
+      deliverables: [
+        {
+          title: 'Wireframes',
+          description: 'Progressive wireframes testing core flows before luxury polish',
+          imagePlaceholder: 'Low-fidelity wireframe screens'
+        },
+        {
+          title: 'High-Fidelity Mobile Experience',
+          description: 'Complete end-to-end pre-order journey from discovery to shipment',
+          imagePlaceholder: 'Polished mobile screens showing full flow'
+        },
+        {
+          title: 'Information Architecture',
+          description: 'Site map integrating pre-order seamlessly into existing experience',
+          imagePlaceholder: 'IA diagram showing feature integration'
+        }
+      ]
+    },
+    testing: {
+      title: 'Testing & Iteration',
+      content: [
+        'Conducted usability testing with representative users through task-based scenarios',
+        'Achieved 100% task completion across all test users',
+        'Received feedback consistently describing experience as "intuitive" and "premium"',
+        'Made improvements: Simplified product detail layouts, strengthened visual hierarchy for key CTAs, refined notification preferences and timing, clarified payment options and terminology'
+      ],
+      deliverables: [
+        {
+          title: 'Usability Test Plan',
+          description: 'Task scenarios testing full pre-order journey',
+          imagePlaceholder: 'Test script with scenarios'
+        },
+        {
+          title: 'Validation Report',
+          description: 'Synthesized feedback showing seamless integration',
+          imagePlaceholder: 'Report with user quotes and success metrics'
+        },
+        {
+          title: 'Iteration Documentation',
+          description: 'Improvements made based on testing feedback',
+          imagePlaceholder: 'Before/after comparisons with annotations'
+        }
+      ]
+    },
+    outcomes: {
+      metrics: [
+        '100% task completion across all test users',
+        'Clear understanding of pre-order terms and delivery timelines',
+        'Seamless integration with existing Harrods shopping experience'
+      ],
+      qualitative: [
+        'Users consistently described experience as "intuitive" and "premium"',
+        'Customer quote: "This is exactly what luxury shopping should feel like—effortless and exclusive"',
+        'Demonstrated how UX design can enhance exclusivity while delivering tangible business value'
+      ]
+    },
+    reflection: {
+      improvements: [
+        'Would launch pilot with select product category to validate in real-world',
+        'Could track conversion rates and demand-forecast accuracy',
+        'Would conduct A/B testing on messaging and flow variations',
+        'Could expand feature to desktop and in-store kiosks'
+      ],
+      learnings: [
+        'Luxury Requires Simplicity: Premium experiences feel effortless when unnecessary complexity is removed',
+        'Early Access Drives Loyalty: Providing customers with early access strengthens emotional connection and repeat engagement',
+        'Transparency Builds Trust: Clear expectations increase confidence and conversion'
+      ]
+    },
+    nextCaseStudy: 'fluxboard',
+    gradientColors: 'from-rose-500/20 to-pink-500/20'
   }
 ];
 
